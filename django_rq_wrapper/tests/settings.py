@@ -13,6 +13,7 @@ SECRET_KEY = 'not-secret'
 
 INSTALLED_APPS = [
     'django.contrib.contenttypes',
+    'django.contrib.auth',
     'django.contrib.admin',
     'django_rq_wrapper',
 ]
