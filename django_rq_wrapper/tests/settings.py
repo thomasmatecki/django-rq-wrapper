@@ -12,6 +12,7 @@ REDIS_HOST = os.environ.get("REDIS_HOST", 'localhost')
 SECRET_KEY = 'not-secret'
 
 INSTALLED_APPS = [
+    'django.contrib.admin',
     'django_rq_wrapper',
 ]
 
